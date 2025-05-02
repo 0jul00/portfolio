@@ -1,0 +1,276 @@
+img {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 500px;
+  justify-content: space-around;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.przerywnik {
+max-height: 50px;
+width: auto;
+display: flex;
+margin: 0 auto;
+padding: 15px;
+}
+.pierwszy {
+  padding-top: 0px;
+}
+
+#notatka {
+  display: inline-block;
+  padding-bottom: 13px;
+}
+
+p {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+
+
+h1 {
+  font-family: "Nanum Gothic Coding", monospace;
+font-weight: 400;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#welcome {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 0.5rem 0;
+  border-bottom: none;
+}
+
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  display: block;
+  padding-right: 20px;
+  object-fit: contain;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  transition: color 0.2s ease;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+.top-category-menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: smaller;
+  font-style: italic;
+  position: sticky;
+  padding-bottom: 1em;
+  top: 80px;
+  background-color: white;
+  z-index: 999;
+  border-bottom: none;
+  padding-top: 0.2em;
+}
+
+.top-category-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.3em 0.5em;
+  border-radius: 0.3em;
+  transition: background 0.2s ease;
+}
+.top-category-menu a.active {
+color: rgb(141, 141, 141);
+}
+.top-category-menu a:hover {
+color:rgb(141, 141, 141);
+}
+
+footer {
+  font-family: "Nanum Gothic Coding", monospace;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 40px;
+}
+
+.footer .container3 {
+  text-align: center;
+}
+
+.footer .social-links a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+footer p {
+  margin: 0;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls button {
+  background: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+
+@media (max-width: 500px) {
+
+
+  nav ul {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+margin: 0 4px;
+}
+.container1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 96%;
+padding: 0 10px; 
+}
+.logo-img {
+  content: url('https://i.imgur.com/hzp69p2.jpeg'); 
+  height: auto;
+  width: 90%;
+
+}
+.gallery {
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  padding-bottom: 5px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover; 
+}
+.top-category-menu {
+  top: 60px;
+}
+}
+
+  @media (max-width: 768px) {
+    .top-category-menu {
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      padding-top: 1em;
+      gap: 1em;
+      margin-top: 1em;
+      margin-bottom: 2em;
+    }
+  
+    .top-category-menu a {
+      white-space: nowrap;
+      flex: 0 0 auto;
+    }
+  
+   }
+   .thumbnail {
+    cursor: pointer; }
+
+  
+
+
+    #illustration, #journaling, #digital, #process {
+      scroll-margin-top: 100px; 
+    }

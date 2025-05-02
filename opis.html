@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/grid-gallery.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>works</title>
+  <meta name="description" content="My artwork and projects.">
+  <meta name="keywords" content="portfolio, art, design, creative">
+  <link rel="icon" href="https://i.imgur.com/miF0FYH.jpeg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="start.css">
+  <link rel="stylesheet" href="opis.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container1">
+      <a href="index.html" class="logo">
+        <img src="https://i.imgur.com/67hmjMR.jpeg" alt="julita rzenno logo" class="logo-img">
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="opis.html">About</a></li>
+          <li class="portfolio-menu">
+            <a href="works.html">Portfolio</a>
+          </li>
+          <li><a href="kontakt.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <img id="duzyobrazek" src="https://sigmawire.net/i/04/UXyO6B.jpg" alt="Large artwork by Julita Rzenno">
+
+  <div class='podklasa'>
+    <main>
+      <div class="opis">
+        <p>"I create to capture moments—real and imagined.<br> My work is a dialogue between color, form, and emotion, shaped by quiet observations and fleeting dreams. Each piece is a fragment of a story, an invitation to pause and feel. Inspired by nature, memory, and the spaces in between, I paint, draw, and explore.<br> Thank you for stepping into my world."</p>
+        <img class="przerywnik pierwszy" src="https://i.imgur.com/sqTzhMD.png" alt="przerywnik">
+      </div>
+    </main>
+
+    <div>
+      <div class="obrazki">
+        <img src="https://sigmawire.net/i/04/gAHI3q.jpeg" loading="lazy" class="thumbnail" alt="Thumbnail of artwork 1" onclick="openImageOpis(0)">
+        <img src="https://sigmawire.net/i/04/sjy9t5.jpg" loading="lazy" class="thumbnail" alt="Thumbnail of artwork 2" onclick="openImageOpis(1)">
+        <img src="https://sigmawire.net/i/04/sDWZUt.jpeg" loading="lazy" class="thumbnail horizontal-img" alt="Thumbnail of artwork 3" onclick="openImageOpis(2)">
+      </div>
+
+      <div class="obrazki">
+        <img src="https://i.imgur.com/Kh7brSu.jpg" loading="lazy" class="thumbnail" alt="Thumbnail of artwork 4" onclick="openImageOpis(3)">
+        <img src="https://i.imgur.com/ikZ4U9l.jpg"  loading="lazy" class="thumbnail" alt="Thumbnail of artwork 5" onclick="openImageOpis(4)">
+        <img src="https://i.imgur.com/XGHCqun.jpg" loading="lazy" class="thumbnail" alt="Thumbnail of artwork 6" onclick="openImageOpis(5)">
+      </div>
+
+      <div class="obrazki">
+        <img src="https://i.imgur.com/QRSoryA.jpg" loading="lazy" class="thumbnail" alt="Thumbnail of artwork 7" onclick="openImageOpis(6)">
+        <img src="https://i.imgur.com/GFHXB1k.jpg" loading="lazy" class="thumbnail" alt="Thumbnail of artwork 8" onclick="openImageOpis(7)">
+        <img src="https://i.imgur.com/RhmMoeU.jpg" loading="lazy" class="thumbnail horizontal-img" alt="Thumbnail of artwork 9" onclick="openImageOpis(8)">
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container3 text-center">
+      <p>2025 ⓒ julita rzenno</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/ffwjffwr/#">@ffwjffwr on Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="lightbox-opis" class="lightbox" onclick="closeImageOpis()">
+    <div class="controls">
+      <button onclick="prevImageOpis(event)">&lt;</button>
+      <button onclick="nextImageOpis(event)">&gt;</button>
+    </div>
+    <img id="lightbox-img" src="https://via.placeholder.com/1x1" alt="Enlarged image">
+  </div>
+
+  <script>
+    let currentIndexOpis = 0;
+    const imagesOpis = [
+      "https://sigmawire.net/i/04/gAHI3q.jpeg",
+      "https://sigmawire.net/i/04/sjy9t5.jpg",
+      "https://sigmawire.net/i/04/sDWZUt.jpeg",
+      "https://i.imgur.com/Kh7brSu.jpg",
+      "https://i.imgur.com/ikZ4U9l.jpg",
+      "https://i.imgur.com/XGHCqun.jpg",
+      "https://i.imgur.com/QRSoryA.jpg",
+      "https://i.imgur.com/GFHXB1k.jpg",
+      "https://i.imgur.com/RhmMoeU.jpg"
+    ];
+  
+    function openImageOpis(index) {
+      currentIndexOpis = index;
+      const img = document.getElementById('lightbox-img');
+      img.src = imagesOpis[currentIndexOpis];
+  
+      // Add horizontal-img class if thumbnail has it
+      const thumbnails = document.querySelectorAll('.thumbnail');
+      if (thumbnails[currentIndexOpis]?.classList.contains('horizontal-img')) {
+        img.classList.add('horizontal-img');
+      } else {
+        img.classList.remove('horizontal-img');
+      }
+  
+      document.getElementById('lightbox-opis').style.display = 'flex';
+    }
+  
+    function closeImageOpis() {
+      document.getElementById('lightbox-opis').style.display = 'none';
+    }
+  
+    function prevImageOpis(event) {
+      if (event) event.stopPropagation();
+      currentIndexOpis = (currentIndexOpis - 1 + imagesOpis.length) % imagesOpis.length;
+      openImageOpis(currentIndexOpis);
+    }
+  
+    function nextImageOpis(event) {
+      if (event) event.stopPropagation();
+      currentIndexOpis = (currentIndexOpis + 1) % imagesOpis.length;
+      openImageOpis(currentIndexOpis);
+    }
+  
+    
+    let touchStartX = 0;
+    let touchEndX = 0;
+  
+    const lightboxOpisElement = document.getElementById('lightbox-opis');
+  
+    lightboxOpisElement.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+  
+    lightboxOpisElement.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipeGestureOpis();
+    }, false);
+  
+    function handleSwipeGestureOpis() {
+      const swipeDistance = touchEndX - touchStartX;
+  
+      if (swipeDistance > 50) {
+        prevImageOpis();
+      } else if (swipeDistance < -50) {
+        nextImageOpis();
+      }
+    }
+  </script>
+  
+</body>
+
+</html>

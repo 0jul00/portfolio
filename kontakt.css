@@ -1,0 +1,183 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.logoplustresc {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0 auto;
+    justify-content: space-evenly;
+    height: 90vh;
+    gap: 10px;
+}
+
+
+.dane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+
+.panorama {
+    max-height: 250px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg); /* dla orientacji od dołu do góry */
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 16px;
+    text-align: center;
+    max-height: 250px;
+    line-height: 1.5;
+    cursor: default;
+    font-size: smaller;
+}
+
+.vertical-text a,
+.vertical-text span {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.vertical-text.left {
+    align-self: flex-end;
+    text-decoration: underline;
+}
+
+.vertical-text.right {
+    align-self: flex-start;
+}
+
+#copy-mail {
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .dane {
+        gap: 10px;
+    }
+
+    .vertical-text {
+        font-size: 12px;
+        max-height: 150px;
+    }
+
+    .panorama {
+        max-height: 150px;
+    }
+}
+
+.panorama {
+    min-width: 70%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+img:not(.logo-img) {
+    max-width: 50%;
+    height: auto;
+    max-height: 450px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+main > * {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 700px) { 
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        gap: 20px;
+    }
+
+    .logoplustresc {
+        height: auto;
+        gap: 15px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .logoplustresc {
+        gap: 30px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    nav ul {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 0 4px;
+    }
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 96%;
+        padding: 0 10px; 
+    }
+
+    .logo-img {
+        content: url('https://i.imgur.com/hzp69p2.jpeg'); 
+        height: auto;
+        width: 90%;
+    }
+}

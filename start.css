@@ -1,0 +1,214 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 0.5rem 0;
+    border-bottom: none;
+  }
+  
+  
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto;
+    display: block;
+    padding-right: 20px;
+    object-fit: contain;
+}
+
+ @media (min-width:501px){
+.przerywnikstart {
+    display: none;
+}}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    transition: color 0.2s ease;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+#kwiatki {
+    max-width: 120px;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.duzy {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+
+#logo2 {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 40px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+    }
+
+    #kwiatki {
+       display: none;
+    }
+
+    #logo2 {
+        max-width: 120px; 
+    }
+
+    .duzy {
+        max-width: 250px; 
+    }
+
+    
+    .intro {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 5px;  
+        margin-bottom: 30px; 
+    }
+
+
+    nav ul {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 0.7rem;
+        font-size: 14px;
+    }
+
+    .logo-img {
+        height: 40px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        gap: 10px; }
+
+
+    #logo2 {
+        max-width: 80px;
+    }
+    .logo-img {
+        content: url('https://i.imgur.com/hzp69p2.jpeg'); 
+        height: auto;
+        width: 90%;
+    }
+
+
+    .duzy {
+        max-width: 190px; 
+    }
+
+
+
+    nav ul {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+  nav ul li {
+    margin: 0 4px;
+  }
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding: 0 10px; 
+}
+
+.przerywnikstart {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+}
