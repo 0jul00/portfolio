@@ -1,4 +1,4 @@
-/* --- Elementary Styles --- */
+
 img {
   display: block;
   width: 100%;
@@ -18,27 +18,27 @@ img {
   margin-bottom: 20px;
 }
 
-/* --- Grid Layout for opis + gallery --- */
 .podklasa {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;             /* więcej przestrzeni między rzędami */
-  padding: 20px;         /* dodatkowa przestrzeń wokół gridu */
-  justify-items: center; /* wyśrodkowanie grid items na wąskich ekranach */
+  gap: 40px;             
+  padding: 20px;         
+  justify-items: center; 
+  max-width: 90%
 }
 
 .podklasa .opis {
   padding: 10px;
   margin: 0;
   width: 100%;
-  max-width: 600px;      /* opcjonalne ograniczenie szerokości tekstu */
+  max-width: 600px;      
 }
 
 .obrazki {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 40px;   /* szerokie odstępy poziome */
-  row-gap: 60px;      /* większe odstępy pionowe */
+  column-gap: 40px;   
+  row-gap: 60px;      
   width: 100%;
   max-width: 900px;
   padding: 30px;
@@ -46,12 +46,12 @@ img {
 
 .obrazki img {
   width: 100%;
-  aspect-ratio: 1 / 1;   /* kwadraty */
-  object-fit: cover;     /* przytnie wnętrze, by wypełnić kwadrat */
+  aspect-ratio: 1 / 1;  
+  object-fit: cover;    
   cursor: pointer;
 }
 
-/* --- Lightbox & Controls --- */
+
 .lightbox {
   display: none;
   position: fixed;
@@ -87,12 +87,12 @@ img {
   cursor: pointer;
 }
 
-/* --- Responsive Breakpoints --- */
+
 @media (min-width: 900px) {
-  /* opis and gallery side by side */
+ 
   .podklasa {
     grid-template-columns: 35% 65%;
-    justify-items: start;  /* reset center alignment */
+    justify-items: start;  
   }
   .podklasa .opis {
     max-width: none;
