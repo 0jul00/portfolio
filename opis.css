@@ -16,7 +16,7 @@ img {
 .podklasa {
   display: inline-flex;
   align-content: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .przerywnik {
   max-height: 70px;
