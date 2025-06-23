@@ -29,10 +29,7 @@ img {
   padding: 10px;
   margin: 5px;
 }
-.podklasa .opis {
-  flex: 0 0 40%;
-  max-width: 40%;
-}
+
 #duzyobrazek {
   height: auto;
   min-width: 100%;
@@ -129,7 +126,11 @@ img {
       padding: 0 10px; 
   }
 }
-
+@media (min-width:850px) {
+  .podklasa .opis {
+  flex: 0 0 60%;
+  max-width: 60%;
+}}
 .thumbnail {
   cursor: pointer;
 } 
