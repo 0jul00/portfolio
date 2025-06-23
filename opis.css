@@ -7,7 +7,7 @@ img {
   display: flex;
   max-width: 95%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
  .obrazki img {
   width: 50%;
