@@ -43,7 +43,6 @@ img {
       display: flex;
       flex-direction: column;
   }
-
 }
 
 .lightbox {
@@ -127,7 +126,16 @@ img {
       padding: 0 10px; 
   }
 }
-
+@media (min-width: 850px) {
+  .podklasa .opis {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .obrazki {
+    max-width: 50%;
+    display: fit-content;
+  }
+}
 .thumbnail {
   cursor: pointer;
 }
