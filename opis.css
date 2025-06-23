@@ -41,6 +41,7 @@ img {
   row-gap: 60px;      /* większe odstępy pionowe */
   width: 100%;
   max-width: 900px;
+  padding: 30px;
 }
 
 .obrazki img {
