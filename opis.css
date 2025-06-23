@@ -1,4 +1,4 @@
-
+/* --- Elementary Styles --- */
 img {
   display: block;
   width: 100%;
@@ -18,7 +18,7 @@ img {
   margin-bottom: 20px;
 }
 
-
+/* --- Grid Layout for opis + gallery --- */
 .podklasa {
   display: grid;
   grid-template-columns: 1fr;
@@ -30,12 +30,12 @@ img {
   margin: 0;
 }
 
-
+/* force 3 columns at all sizes for gallery */
 .obrazki {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 30px;
-  width: 90%;
+  gap: 15px;
+  width: 100%;
 }
 
 .obrazki img {
@@ -45,7 +45,7 @@ img {
   cursor: pointer;
 }
 
-
+/* --- Lightbox & Controls --- */
 .lightbox {
   display: none;
   position: fixed;
@@ -81,11 +81,11 @@ img {
   cursor: pointer;
 }
 
-
+/* --- Responsive Breakpoints --- */
 @media (min-width: 900px) {
-
+  /* opis and gallery side by side */
   .podklasa {
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 35% 65%;
     align-items: start;
   }
 }
