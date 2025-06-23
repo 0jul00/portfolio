@@ -43,6 +43,10 @@ img {
       display: flex;
       flex-direction: column;
   }
+
+.obrazki {
+  max-width: 80%;
+}
 }
 
 .lightbox {
