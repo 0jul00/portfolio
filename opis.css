@@ -109,8 +109,16 @@ img {
     max-height: 80vh;
   }
   .podklasa {
-    max-width: 95%
-    margin: 0 auto;
+    max-width: 97%
   }
+    .obrazki {
+    width: 100%;       
+    max-width: none;   
+    padding: 0;        
+    margin: 0 auto;    
+    gap: 20px;         
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
   
 }
