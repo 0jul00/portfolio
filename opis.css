@@ -7,22 +7,22 @@ img {
   display: flex;
   max-width: 95%;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 50px;
-}
- .obrazki img {
-  width: 50%;
+  justify-content: space-between;
 }
 
 .podklasa {
   display: inline-flex;
   align-content: flex-start;
-  justify-content: space-evenly;
-  max-width: 80%;
+  justify-content: space-between;
 }
+
 .przerywnik {
   max-height: 70px;
   width: auto;
+}
+
+.sidebar {
+  max-width: 60%;
 }
 
 .opis {
@@ -126,11 +126,7 @@ img {
       padding: 0 10px; 
   }
 }
-@media (min-width:850px) {
-  .podklasa .opis {
-  flex: 0 0 60%;
-  max-width: 60%;
-}}
+
 .thumbnail {
   cursor: pointer;
-} 
+}
