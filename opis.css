@@ -1,19 +1,8 @@
+/* --- Elementary Styles --- */
 img {
+  display: block;
+  width: 100%;
   height: auto;
-  width: 20%;
-}
-
-.obrazki {
-  display: flex;
-  max-width: 95%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.podklasa {
-  display: inline-flex;
-  align-content: flex-start;
-  justify-content: space-between;
 }
 
 .przerywnik {
@@ -21,30 +10,41 @@ img {
   width: auto;
 }
 
-.sidebar {
-  max-width: 60%;
-}
-
-.opis {
-  padding: 10px;
-  margin: 5px;
-}
-
 #duzyobrazek {
-  height: auto;
-  min-width: 100%;
-  max-height: 350px; 
+  display: block;
+  width: 100%;
+  max-height: 350px;
   object-fit: cover;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-@media (max-width: 850px) {
-  .podklasa {
-      display: flex;
-      flex-direction: column;
-  }
+/* --- Grid Layout for opis + gallery --- */
+.podklasa {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
+.podklasa .opis {
+  padding: 10px;
+  margin: 0;
+}
+
+.obrazki {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+}
+
+.obrazki img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* --- Lightbox & Controls --- */
 .lightbox {
   display: none;
   position: fixed;
@@ -52,81 +52,55 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0,0,0,0.8);
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .lightbox img {
   max-width: 95vw;
   max-height: 95vh;
-  width: auto;
-  height: auto;
   object-fit: contain;
 }
 
 .controls {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
   position: absolute;
   top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   transform: translateY(-50%);
 }
 
 .controls button {
-  background: rgb(255, 255, 255);
+  background: #fff;
   border: none;
   padding: 10px;
   cursor: pointer;
-  color: black;
+}
+
+/* --- Responsive Breakpoints --- */
+@media (min-width: 900px) {
+  /* opis and gallery side by side */
+  .podklasa {
+    grid-template-columns: 35% 65%;
+    align-items: start;
+  }
+  /* gallery grid: 3 columns */
+  .obrazki {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: inherit; /* not wider than container */
+  }
 }
 
 @media (max-width: 500px) {
+  /* adjust lightbox and other small-screen tweaks */
   .lightbox img {
-      min-width: 65%;
-      height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
   }
-
   .przerywnik {
     max-height: 50px;
-    width: auto;
   }
-  
-  #duzyobrazek {
-      padding-bottom: 10px;
-  }
-
-  .logo-img {
-      content: url('https://i.imgur.com/hzp69p2.jpeg'); 
-      height: auto;
-      width: 90%;
-  }
-
-  nav ul {
-      flex-wrap: nowrap;
-      justify-content: space-evenly;
-      gap: 0.5rem;
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-  }
-
-  nav ul li {
-      margin: 0 4px;
-  }
-
-  .container1 {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 96%;
-      padding: 0 10px; 
-  }
-}
-
-.thumbnail {
-  cursor: pointer;
 }
