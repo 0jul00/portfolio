@@ -24,7 +24,10 @@ img {
   padding: 10px;
   margin: 5px;
 }
-
+.podklasa .opis {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
 #duzyobrazek {
   height: auto;
   min-width: 100%;
