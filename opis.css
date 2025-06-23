@@ -148,8 +148,8 @@ img {
     flex: 1;
   }
 
-  /* miniaturki w .obrazki są po ~30% szerokości każda */
+  /* miniaturki w .obrazki są po ~20% szerokości każda */
   .obrazki img {
-    width: 30%;
+    width: 20%;
   }
 }
