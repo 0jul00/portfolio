@@ -9,11 +9,14 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.obrazki img {
+  width: 30%;
+}
 
 .podklasa {
   display: inline-flex;
   align-content: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .przerywnik {
   max-height: 70px;
