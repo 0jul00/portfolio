@@ -1,53 +1,229 @@
-img {
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 0.5rem 0;
+  border-bottom: none;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+}
+
+.logo-img {
+  height: 60px;
+  width: auto;
+  display: block;
+  padding-right: 20px;
+  object-fit: contain;
+}
+
+@media (min-width:501px) {
+  .przerywnikstart {
+    display: none;
+  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  transition: color 0.2s ease;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+#kwiatki {
+  max-width: 120px;
   height: auto;
-  width: 20%;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.duzy {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+#logo2 {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+p, h1, div a {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+  margin-top: 40px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #kwiatki {
+    display: none;
+  }
+
+  #logo2 {
+    max-width: 120px;
+  }
+
+  .duzy {
+    max-width: 250px;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.7rem;
+    font-size: 14px;
+  }
+
+  .logo-img {
+    height: 40px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #logo2 {
+    max-width: 80px;
+  }
+
+  .logo-img {
+    content: url('https://i.imgur.com/hzp69p2.jpeg');
+    height: auto;
+    width: 90%;
+  }
+
+  .duzy {
+    max-width: 190px;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0 4px;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding: 0 10px;
+  }
+
+  .przerywnikstart {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* poprawiona struktura .podklasa i obrazki */
+.podklasa {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.podklasa .opis {
+  flex: 0 0 35%;
+  max-width: 35%;
+}
+
+.podklasa > div {
+  flex: 1 1 65%;
+  min-width: 0;
 }
 
 .obrazki {
   display: flex;
-  max-width: 95%;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px;
 }
 
-.podklasa {
-  display: inline-flex;
-  align-content: flex-start;
-  justify-content: space-around;
-}
-.podklasa .opis {
-  flex: 0 0 40%;
-  max-width: 40%;
-}
-
-
-.przerywnik {
-  max-height: 70px;
-  width: auto;
-}
-
-.sidebar {
-  max-width: 60%;
-}
-
-.opis {
-  padding: 10px;
-  margin: 5px;
-}
-
-#duzyobrazek {
+.obrazki img {
+  width: 30%;
   height: auto;
-  min-width: 100%;
-  max-height: 350px; 
-  object-fit: cover;
-  padding-bottom: 20px;
-}
-
-@media (max-width: 850px) {
-  .podklasa {
-      display: flex;
-      flex-direction: column;
-  }
 }
 
 .lightbox {
@@ -61,7 +237,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .lightbox img {
@@ -89,49 +265,23 @@ img {
   color: black;
 }
 
-@media (max-width: 500px) {
-  .lightbox img {
-      min-width: 65%;
-      height: auto;
+/* zwiększone obrazki obok tekstu na laptopie */
+@media (min-width: 900px) {
+  .podklasa {
+    display: flex;
+    flex-wrap: nowrap;
   }
-
-  .przerywnik {
-    max-height: 50px;
-    width: auto;
+  .podklasa .opis {
+    max-width: 35%;
   }
-  
-  #duzyobrazek {
-      padding-bottom: 10px;
+  .podklasa > div {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
   }
-
-  .logo-img {
-      content: url('https://i.imgur.com/hzp69p2.jpeg'); 
-      height: auto;
-      width: 90%;
+  .podklasa > div .obrazki img {
+    width: 28%; /* większe miniaturki na szerokich ekranach */
   }
-
-  nav ul {
-      flex-wrap: nowrap;
-      justify-content: space-evenly;
-      gap: 0.5rem;
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-  }
-
-  nav ul li {
-      margin: 0 4px;
-  }
-
-  .container1 {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 96%;
-      padding: 0 10px; 
-  }
-}
-
-.thumbnail {
-  cursor: pointer;
 }
