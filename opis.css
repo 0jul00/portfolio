@@ -44,9 +44,6 @@ img {
       flex-direction: column;
   }
 
-.obrazki {
-  display: fit-content;
-}
 }
 
 .lightbox {
