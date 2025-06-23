@@ -6,6 +6,7 @@ img {
 .obrazki {
   display: flex;
   max-width: 95%;
+  min-width: 50%;
   align-items: center;
   justify-content: space-between;
 }
