@@ -30,11 +30,12 @@ img {
   margin: 0;
 }
 
+/* force 3 columns at all sizes for gallery */
 .obrazki {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  width: 100%;
 }
 
 .obrazki img {
@@ -87,20 +88,15 @@ img {
     grid-template-columns: 35% 65%;
     align-items: start;
   }
-  /* gallery grid: 3 columns */
-  .obrazki {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: inherit; /* not wider than container */
-  }
 }
 
 @media (max-width: 500px) {
-  /* adjust lightbox and other small-screen tweaks */
+  .przerywnik {
+    max-height: 50px;
+  }
+
   .lightbox img {
     max-width: 80vw;
     max-height: 80vh;
-  }
-  .przerywnik {
-    max-height: 50px;
   }
 }
