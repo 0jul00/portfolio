@@ -37,9 +37,10 @@ img {
 .obrazki {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 40px;             /* większy odstęp między obrazkami */
+  column-gap: 40px;   /* szerokie odstępy poziome */
+  row-gap: 60px;      /* większe odstępy pionowe */
   width: 100%;
-  max-width: 900px;      /* ograniczenie szerokości galerii */
+  max-width: 900px;
 }
 
 .obrazki img {
