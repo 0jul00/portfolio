@@ -126,16 +126,7 @@ img {
       padding: 0 10px; 
   }
 }
-@media (min-width: 850px) {
-  .podklasa .opis {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .podklasa img {
-    width: 50%;
-    display: fit-content;
-  }
-}
+
 .thumbnail {
   cursor: pointer;
 }
