@@ -22,7 +22,7 @@ img {
 .podklasa {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 30px;  /* increased overall spacing */
 }
 
 .podklasa .opis {
@@ -30,22 +30,21 @@ img {
   margin: 0;
 }
 
-/* force 3 columns at all sizes for gallery */
+
 .obrazki {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 15px;
-  width: 100%;
+  gap: 50px;  
+  width: 90%;
 }
 
 .obrazki img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+  width: 80%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;     
   cursor: pointer;
 }
 
-/* --- Lightbox & Controls --- */
 .lightbox {
   display: none;
   position: fixed;
@@ -81,9 +80,9 @@ img {
   cursor: pointer;
 }
 
-/* --- Responsive Breakpoints --- */
+
 @media (min-width: 900px) {
-  /* opis and gallery side by side */
+
   .podklasa {
     grid-template-columns: 35% 65%;
     align-items: start;
