@@ -17,6 +17,7 @@ img {
   display: inline-flex;
   align-content: flex-start;
   justify-content: space-between;
+  max-width: 95%;
 }
 .przerywnik {
   max-height: 70px;
