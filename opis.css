@@ -131,8 +131,8 @@ img {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .obrazki {
-    max-width: 50%;
+  .podklasa img {
+    width: 50%;
     display: fit-content;
   }
 }
