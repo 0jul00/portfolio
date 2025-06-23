@@ -3,17 +3,22 @@ img {
   width: 20%;
 }
 
+/* kontenery obrazków jako flex z wrap, by nie znikały */
 .obrazki {
   display: flex;
+  flex-wrap: wrap;
   max-width: 95%;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .podklasa {
-  display: inline-flex;
-  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .przerywnik {
