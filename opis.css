@@ -138,18 +138,29 @@ img {
 
 /* większe obrazki i węższy opis na szerokich ekranach */
 @media (min-width: 900px) {
-  /* w obrębie .podklasa, .opis zajmuje max 35% szerokości */
+  /* ogólny układ: tekst i galeria obok siebie */
+  .podklasa {
+    flex-wrap: nowrap; /* bez wrap, obie kolumny obok siebie */
+  }
+
+  /* opis zajmuje max 35% */
   .podklasa .opis {
+    flex: 0 0 35%;
     max-width: 35%;
   }
 
-  /* kontener z obrazkami zajmuje pozostałe 65% */
+  /* wrapper galerii zajmuje resztę i układa swoje dzieci */
   .podklasa > div {
-    flex: 1;
+    flex: 1 0 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
   }
 
-  /* miniaturki w .obrazki są po ~20% szerokości każda */
-  .obrazki img {
-    width: 20%;
+  /* ustawienie miniaturek w galerii */
+  .podklasa > div img {
+    width: calc(33.333% - 10px); /* trzy w rzędzie z odległością */
+    height: auto;
   }
 }
