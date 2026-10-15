@@ -186,6 +186,13 @@ footer p {
   object-fit: contain;
 }
 
+@media (min-width: 768px) and (max-width: 1366px) {
+  .lightbox img {
+    max-width: 96vw;
+    max-height: 94vh;
+  }
+}
+
 .controls {
   position: absolute;
   top: 50%;
