@@ -1,102 +1,479 @@
+
 {
   "illustration": {
     "title": "oil pastel works and colorful paintings",
     "images": [
-      {"src": "https://i.imgur.com/WZcQsuw.jpeg", "alt": "Oil pastel work 1", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/KwFaheE.jpeg", "alt": "Oil pastel work 2", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/jPNcdSA.jpeg", "alt": "Oil pastel work 3", "orientation": "square"},
-      {"src": "https://i.imgur.com/LUFPNDA.jpeg", "alt": "Oil pastel work 4", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/D24tu6T.jpeg", "alt": "Oil pastel work 5", "orientation": "square"},
-      {"src": "https://i.imgur.com/dPYbDxT.jpeg", "alt": "Oil pastel work 6", "orientation": "square"},
-      {"src": "https://i.imgur.com/kIlBN41.jpeg", "alt": "Oil pastel work 7", "orientation": "square"},
-      {"src": "https://i.imgur.com/3o3KwxL.jpeg", "alt": "Oil pastel work 8", "orientation": "square"},
-      {"src": "https://i.imgur.com/JAXqV0v.jpeg", "alt": "Oil pastel work 9", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/JWCyaWp.jpeg", "alt": "Oil pastel work 10", "orientation": "square"},
-      {"src": "https://i.imgur.com/hWvkdlA.jpeg", "alt": "Oil pastel work 11", "orientation": "square"},
-      {"src": "https://i.imgur.com/OGTVUT9.jpeg", "alt": "Oil pastel work 12", "orientation": "square"},
-      {"src": "https://i.imgur.com/R3rPRVz.jpeg", "alt": "Oil pastel work 13", "orientation": "square"},
-      {"src": "https://i.imgur.com/CrLALkc.jpeg", "alt": "Oil pastel work 14", "orientation": "square"},
-      {"src": "https://i.imgur.com/SGKkBk9.jpeg", "alt": "Oil pastel work 15", "orientation": "square"},
-      {"src": "https://i.imgur.com/J2nhkFd.jpeg", "alt": "Oil pastel work 16", "orientation": "square"},
-      {"src": "https://i.imgur.com/Yj2nfpR.jpeg", "alt": "Oil pastel work 17", "orientation": "square"},
-      {"src": "https://i.imgur.com/cDFzmsb.jpeg", "alt": "Oil pastel work 18", "orientation": "square"},
-      {"src": "https://i.imgur.com/s55vQFZ.jpeg", "alt": "Oil pastel work 19", "orientation": "square"}
+      {
+        "src": "https://i.imgur.com/WZcQsuw.jpeg",
+        "full": "https://i.imgur.com/1LDcDUk.jpg",
+        "alt": "Oil pastel work 1",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/KwFaheE.jpeg",
+        "full": "https://i.imgur.com/rHZ22jt.jpg",
+        "alt": "Oil pastel work 2",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/jPNcdSA.jpeg",
+        "full": "https://i.imgur.com/2uUtsle.jpg",
+        "alt": "Oil pastel work 3",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/LUFPNDA.jpeg",
+        "full": "https://i.imgur.com/dcYhGNH.jpg",
+        "alt": "Oil pastel work 4",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/D24tu6T.jpeg",
+        "full": "https://i.imgur.com/Tvi0PgM.jpg",
+        "alt": "Oil pastel work 5",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/dPYbDxT.jpeg",
+        "full": "https://i.imgur.com/TFrPCmG.jpg",
+        "alt": "Oil pastel work 6",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/kIlBN41.jpeg",
+        "full": "https://i.imgur.com/Vh8t0Jl.jpg",
+        "alt": "Oil pastel work 7",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/3o3KwxL.jpeg",
+        "full": "https://i.imgur.com/HGAxQu5.jpg",
+        "alt": "Oil pastel work 8",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/JAXqV0v.jpeg",
+        "full": "https://i.imgur.com/dSfTWwR.jpg",
+        "alt": "Oil pastel work 9",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/JWCyaWp.jpeg",
+        "full": "https://i.imgur.com/v1pn5Wk.jpg",
+        "alt": "Oil pastel work 10",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/hWvkdlA.jpeg",
+        "full": "https://i.imgur.com/vDjxVsN.jpg",
+        "alt": "Oil pastel work 11",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/OGTVUT9.jpeg",
+        "full": "https://i.imgur.com/01mX7rA.jpeg",
+        "alt": "Oil pastel work 12",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/R3rPRVz.jpeg",
+        "full": "https://i.imgur.com/Y6OEsYy.jpeg",
+        "alt": "Oil pastel work 13",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/CrLALkc.jpeg",
+        "full": "https://i.imgur.com/Isd8q50.jpeg",
+        "alt": "Oil pastel work 14",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/SGKkBk9.jpeg",
+        "full": "https://i.imgur.com/8pLxtsZ.jpeg",
+        "alt": "Oil pastel work 15",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/J2nhkFd.jpeg",
+        "full": "https://i.imgur.com/jdDL9T2.jpeg",
+        "alt": "Oil pastel work 16",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/Yj2nfpR.jpeg",
+        "full": "https://i.imgur.com/uSBnlKm.jpeg",
+        "alt": "Oil pastel work 17",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/cDFzmsb.jpeg",
+        "full": "https://i.imgur.com/A8miqXi.jpeg",
+        "alt": "Oil pastel work 18",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/s55vQFZ.jpeg",
+        "full": "https://i.imgur.com/2c19Pww.jpeg",
+        "alt": "Oil pastel work 19",
+        "orientation": "square"
+      }
     ]
   },
   "charcoal": {
     "title": "monochrome charcoal and pen illustrations",
     "images": [
-      {"src": "https://i.imgur.com/fL652mP.jpeg", "alt": "Charcoal and pen illustration 1", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/V3EmlvC.jpeg", "alt": "Charcoal and pen illustration 2", "orientation": "square"},
-      {"src": "https://i.imgur.com/S45bczI.jpeg", "alt": "Charcoal and pen illustration 3", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/C31O5Zt.jpeg", "alt": "Charcoal and pen illustration 4", "orientation": "square"},
-      {"src": "https://i.imgur.com/x2Gg9lv.jpeg", "alt": "Charcoal and pen illustration 5", "orientation": "square"},
-      {"src": "https://i.imgur.com/mVoVYHT.jpeg", "alt": "Charcoal and pen illustration 6", "orientation": "square"},
-      {"src": "https://i.imgur.com/Z55wTXt.jpeg", "alt": "Charcoal and pen illustration 7", "orientation": "square"},
-      {"src": "https://i.imgur.com/lhio04t.jpeg", "alt": "Charcoal and pen illustration 8", "orientation": "square"},
-      {"src": "https://i.imgur.com/lKPKRGP.jpeg", "alt": "Charcoal and pen illustration 9", "orientation": "square"},
-      {"src": "https://i.imgur.com/GhJJwBe.jpeg", "alt": "Charcoal and pen illustration 10", "orientation": "square"},
-      {"src": "https://i.imgur.com/C5bTCE8.jpeg", "alt": "Charcoal and pen illustration 11", "orientation": "square"},
-      {"src": "https://i.imgur.com/sDJqIoD.jpeg", "alt": "Charcoal and pen illustration 12", "orientation": "square"},
-      {"src": "https://i.imgur.com/3NZo7rA.jpeg", "alt": "Charcoal and pen illustration 13", "orientation": "square"},
-      {"src": "https://i.imgur.com/2wLvfPV.jpeg", "alt": "Charcoal and pen illustration 14", "orientation": "square"},
-      {"src": "https://i.imgur.com/rR9wqjz.jpeg", "alt": "Charcoal and pen illustration 15", "orientation": "square"},
-      {"src": "https://i.imgur.com/t2POvq7.jpeg", "alt": "Charcoal and pen illustration 16", "orientation": "square"},
-      {"src": "https://i.imgur.com/YzsrdWL.jpeg", "alt": "Charcoal and pen illustration 17", "orientation": "square"},
-      {"src": "https://i.imgur.com/Kwwn0xD.jpeg", "alt": "Charcoal and pen illustration 18", "orientation": "square"},
-      {"src": "https://i.imgur.com/Kq0Oe46.jpeg", "alt": "Charcoal and pen illustration 19", "orientation": "square"},
-      {"src": "https://i.imgur.com/IekFGz1.jpeg", "alt": "Charcoal and pen illustration 20", "orientation": "square"},
-      {"src": "https://i.imgur.com/R89wjns.jpeg", "alt": "Charcoal and pen illustration 21", "orientation": "square"},
-      {"src": "https://i.imgur.com/s88SmhK.jpeg", "alt": "Charcoal and pen illustration 22", "orientation": "square"},
-      {"src": "https://i.imgur.com/BNawiGt.jpeg", "alt": "Charcoal and pen illustration 23", "orientation": "square"}
+      {
+        "src": "https://i.imgur.com/fL652mP.jpeg",
+        "full": "https://i.imgur.com/reEDju6.jpg",
+        "alt": "Charcoal and pen illustration 1",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/V3EmlvC.jpeg",
+        "full": "https://i.imgur.com/Kyd8DiR.jpg",
+        "alt": "Charcoal and pen illustration 2",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/S45bczI.jpeg",
+        "full": "https://i.imgur.com/LiJyn67.jpg",
+        "alt": "Charcoal and pen illustration 3",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/C31O5Zt.jpeg",
+        "full": "https://i.imgur.com/0sRNXAk.jpg",
+        "alt": "Charcoal and pen illustration 4",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/x2Gg9lv.jpeg",
+        "full": "https://i.imgur.com/Y3Tq0kO.jpg",
+        "alt": "Charcoal and pen illustration 5",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/mVoVYHT.jpeg",
+        "full": "https://i.imgur.com/m3KsEDf.jpg",
+        "alt": "Charcoal and pen illustration 6",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/Z55wTXt.jpeg",
+        "full": "https://i.imgur.com/UtB2jDz.jpg",
+        "alt": "Charcoal and pen illustration 7",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/lhio04t.jpeg",
+        "full": "https://i.imgur.com/JLqMYCn.jpg",
+        "alt": "Charcoal and pen illustration 8",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/lKPKRGP.jpeg",
+        "full": "https://i.imgur.com/pQY5WlB.jpg",
+        "alt": "Charcoal and pen illustration 9",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/GhJJwBe.jpeg",
+        "full": "https://i.imgur.com/EmhlZNX.jpg",
+        "alt": "Charcoal and pen illustration 10",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/C5bTCE8.jpeg",
+        "full": "https://i.imgur.com/45THedt.jpeg",
+        "alt": "Charcoal and pen illustration 11",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/sDJqIoD.jpeg",
+        "full": "https://i.imgur.com/NID7jJ1.jpeg",
+        "alt": "Charcoal and pen illustration 12",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/3NZo7rA.jpeg",
+        "full": "https://i.imgur.com/WxBQAqN.jpeg",
+        "alt": "Charcoal and pen illustration 13",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/2wLvfPV.jpeg",
+        "full": "https://i.imgur.com/uk50Afd.jpeg",
+        "alt": "Charcoal and pen illustration 14",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/rR9wqjz.jpeg",
+        "full": "https://i.imgur.com/BaaFYI9.jpeg",
+        "alt": "Charcoal and pen illustration 15",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/t2POvq7.jpeg",
+        "full": "https://i.imgur.com/9TVfGuT.jpeg",
+        "alt": "Charcoal and pen illustration 16",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/YzsrdWL.jpeg",
+        "full": "https://i.imgur.com/NdxK3PV.jpeg",
+        "alt": "Charcoal and pen illustration 17",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/Kwwn0xD.jpeg",
+        "full": "https://i.imgur.com/azT4KTh.jpeg",
+        "alt": "Charcoal and pen illustration 18",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/Kq0Oe46.jpeg",
+        "full": "https://i.imgur.com/z303wv0.jpeg",
+        "alt": "Charcoal and pen illustration 19",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/IekFGz1.jpeg",
+        "full": "https://i.imgur.com/Fy0AkhE.jpeg",
+        "alt": "Charcoal and pen illustration 20",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/R89wjns.jpeg",
+        "full": "https://i.imgur.com/77cmvrJ.jpeg",
+        "alt": "Charcoal and pen illustration 21",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/s88SmhK.jpeg",
+        "full": "https://i.imgur.com/51SQReD.jpeg",
+        "alt": "Charcoal and pen illustration 22",
+        "orientation": "square"
+      },
+      {
+        "src": "https://i.imgur.com/BNawiGt.jpeg",
+        "full": "https://i.imgur.com/x7vDaOg.jpeg",
+        "alt": "Charcoal and pen illustration 23",
+        "orientation": "square"
+      }
     ]
   },
   "journaling": {
     "title": "pretty pages - mixmedia collages and journaling",
     "images": [
-      {"src": "https://i.imgur.com/acTkMwD.jpeg", "alt": "Mixed media collage 1", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/Le9hEac.jpeg", "alt": "Mixed media collage 2", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/O70t4WL.jpeg", "alt": "Mixed media collage 3", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/F0FyZXp.jpeg", "alt": "Mixed media collage 4", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/9VztyCA.jpeg", "alt": "Mixed media collage 5", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/JGJxS5s.jpeg", "alt": "Mixed media collage 6", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/dDcZtFJ.jpeg", "alt": "Mixed media collage 7", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/SEoiCmJ.jpeg", "alt": "Mixed media collage 8", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/6goya6z.jpeg", "alt": "Mixed media collage 9", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/4gVFZHr.jpeg", "alt": "Mixed media collage 10", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/7YVvXgM.jpeg", "alt": "Mixed media collage 11", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/PUMwYUX.jpeg", "alt": "Mixed media collage 12", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/vnfCPgu.jpeg", "alt": "Mixed media collage 13", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/JzYEChW.jpeg", "alt": "Mixed media collage 14", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/PFcyUlx.jpeg", "alt": "Mixed media collage 15", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/HZ7pLBh.jpeg", "alt": "Mixed media collage 16", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/a05fnSZ.jpeg", "alt": "Mixed media collage 17", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/9itfDKV.jpeg", "alt": "Mixed media collage 18", "orientation": "horizontal"}
+      {
+        "src": "https://i.imgur.com/acTkMwD.jpeg",
+        "full": "https://i.imgur.com/aMoboAa.jpg",
+        "alt": "Mixed media collage 1",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/Le9hEac.jpeg",
+        "full": "https://i.imgur.com/64DBWgX.jpg",
+        "alt": "Mixed media collage 2",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/O70t4WL.jpeg",
+        "full": "https://i.imgur.com/88m8zAm.jpg",
+        "alt": "Mixed media collage 3",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/F0FyZXp.jpeg",
+        "full": "https://i.imgur.com/EAFFKKK.jpg",
+        "alt": "Mixed media collage 4",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/9VztyCA.jpeg",
+        "full": "https://i.imgur.com/qLGCJv9.jpg",
+        "alt": "Mixed media collage 5",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/JGJxS5s.jpeg",
+        "full": "https://i.imgur.com/DrEtfW5.jpg",
+        "alt": "Mixed media collage 6",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/dDcZtFJ.jpeg",
+        "full": "https://i.imgur.com/xamJevg.jpg",
+        "alt": "Mixed media collage 7",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/SEoiCmJ.jpeg",
+        "full": "https://i.imgur.com/5VDmMeW.jpg",
+        "alt": "Mixed media collage 8",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/6goya6z.jpeg",
+        "full": "https://i.imgur.com/03wp0Sd.png",
+        "alt": "Mixed media collage 9",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/4gVFZHr.jpeg",
+        "full": "https://i.imgur.com/QVEQu0q.jpg",
+        "alt": "Mixed media collage 10",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/7YVvXgM.jpeg",
+        "full": "https://i.imgur.com/vzYMvPK.jpg",
+        "alt": "Mixed media collage 11",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/PUMwYUX.jpeg",
+        "full": "https://i.imgur.com/FqMuWB3.jpg",
+        "alt": "Mixed media collage 12",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/vnfCPgu.jpeg",
+        "full": "https://i.imgur.com/vRgYISl.png",
+        "alt": "Mixed media collage 13",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/JzYEChW.jpeg",
+        "full": "https://i.imgur.com/TsSkdn1.jpeg",
+        "alt": "Mixed media collage 14",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/PFcyUlx.jpeg",
+        "full": "https://i.imgur.com/ZhMjtpJ.jpeg",
+        "alt": "Mixed media collage 15",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/HZ7pLBh.jpeg",
+        "full": "https://i.imgur.com/sUe2VR0.jpeg",
+        "alt": "Mixed media collage 16",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/a05fnSZ.jpeg",
+        "full": "https://i.imgur.com/5EDENBf.jpeg",
+        "alt": "Mixed media collage 17",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/9itfDKV.jpeg",
+        "full": "https://i.imgur.com/5rcf1BE.jpeg",
+        "alt": "Mixed media collage 18",
+        "orientation": "horizontal"
+      }
     ]
   },
   "digital": {
     "title": "illustrative digital pieces",
     "images": [
-      {"src": "https://i.imgur.com/Y1lNQKM.jpeg", "alt": "Digital artwork 1", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/qtLlWd9.jpeg", "alt": "Digital artwork 2", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/RNcph2i.jpeg", "alt": "Digital artwork 3", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/ilkVWV9.jpeg", "alt": "Digital artwork 4", "orientation": "horizontal"}
+      {
+        "src": "https://i.imgur.com/Y1lNQKM.jpeg",
+        "full": "https://i.imgur.com/SwTeUsK.jpg",
+        "alt": "Digital artwork 1",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/qtLlWd9.jpeg",
+        "full": "https://i.imgur.com/hTLUdjs.png",
+        "alt": "Digital artwork 2",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/RNcph2i.jpeg",
+        "full": "https://i.imgur.com/qNX9PwC.png",
+        "alt": "Digital artwork 3",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/ilkVWV9.jpeg",
+        "full": "https://i.imgur.com/3dHC4WI.png",
+        "alt": "Digital artwork 4",
+        "orientation": "horizontal"
+      }
     ]
   },
   "process": {
     "title": "the making space — glimpses into the surroundings of creation",
     "images": [
-      {"src": "https://i.imgur.com/8wCU4v4.jpeg", "alt": "Process photo 1", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/oKwlgqR.jpeg", "alt": "Process photo 2", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/mrY96os.jpeg", "alt": "Process photo 3", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/hG1dUWF.jpeg", "alt": "Process photo 4", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/LmRVR95.jpeg", "alt": "Process photo 5", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/6rHKpMg.jpeg", "alt": "Process photo 6", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/y7cVJkJ.jpeg", "alt": "Process photo 7", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/EoU4vNs.jpeg", "alt": "Process photo 8", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/AJkMyGd.jpeg", "alt": "Process photo 9", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/ivcpJVT.jpeg", "alt": "Process photo 10", "orientation": "horizontal"},
-      {"src": "https://i.imgur.com/sWvodeG.jpeg", "alt": "Process photo 11", "orientation": "horizontal"}
+      {
+        "src": "https://i.imgur.com/8wCU4v4.jpeg",
+        "full": "https://i.imgur.com/YLmuboL.jpeg",
+        "alt": "Process photo 1",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/oKwlgqR.jpeg",
+        "full": "https://i.imgur.com/UmdxFLN.jpeg",
+        "alt": "Process photo 2",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/mrY96os.jpeg",
+        "full": "https://i.imgur.com/KogZPqn.jpeg",
+        "alt": "Process photo 3",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/hG1dUWF.jpeg",
+        "full": "https://i.imgur.com/aKSnmOt.jpeg",
+        "alt": "Process photo 4",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/LmRVR95.jpeg",
+        "full": "https://i.imgur.com/HWqG6xw.jpeg",
+        "alt": "Process photo 5",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/6rHKpMg.jpeg",
+        "full": "https://i.imgur.com/4BUvJza.jpeg",
+        "alt": "Process photo 6",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/y7cVJkJ.jpeg",
+        "full": "https://i.imgur.com/cEjMGS3.jpeg",
+        "alt": "Process photo 7",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/EoU4vNs.jpeg",
+        "full": "https://i.imgur.com/aAorHm3.jpeg",
+        "alt": "Process photo 8",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/AJkMyGd.jpeg",
+        "full": "https://i.imgur.com/Mx87Tap.jpeg",
+        "alt": "Process photo 9",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/ivcpJVT.jpeg",
+        "full": "https://i.imgur.com/lE2nEcr.jpeg",
+        "alt": "Process photo 10",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "https://i.imgur.com/sWvodeG.jpeg",
+        "full": "https://i.imgur.com/A8L2lmo.jpeg",
+        "alt": "Process photo 11",
+        "orientation": "horizontal"
+      }
     ]
   }
 }
+
