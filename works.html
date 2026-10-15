@@ -140,7 +140,6 @@ async function loadWorks() {
     console.error("Błąd ładowania galerii:", error);
   }
 }
-
 function openImage(index) {
   if (!allImages.length) return;
 
@@ -149,7 +148,7 @@ function openImage(index) {
   const image = allImages[currentIndex];
   const lightboxImage = document.getElementById("lightbox-img");
 
-  lightboxImage.src = image.src;
+  lightboxImage.src = image.full || image.src;
   lightboxImage.alt = image.alt || "Enlarged image";
 
   lightboxImage.classList.toggle(
