@@ -1,0 +1,102 @@
+{
+  "illustration": {
+    "title": "oil pastel works and colorful paintings",
+    "images": [
+      {"src": "https://i.imgur.com/WZcQsuw.jpeg", "alt": "Oil pastel work 1", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/KwFaheE.jpeg", "alt": "Oil pastel work 2", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/jPNcdSA.jpeg", "alt": "Oil pastel work 3", "orientation": "square"},
+      {"src": "https://i.imgur.com/LUFPNDA.jpeg", "alt": "Oil pastel work 4", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/D24tu6T.jpeg", "alt": "Oil pastel work 5", "orientation": "square"},
+      {"src": "https://i.imgur.com/dPYbDxT.jpeg", "alt": "Oil pastel work 6", "orientation": "square"},
+      {"src": "https://i.imgur.com/kIlBN41.jpeg", "alt": "Oil pastel work 7", "orientation": "square"},
+      {"src": "https://i.imgur.com/3o3KwxL.jpeg", "alt": "Oil pastel work 8", "orientation": "square"},
+      {"src": "https://i.imgur.com/JAXqV0v.jpeg", "alt": "Oil pastel work 9", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/JWCyaWp.jpeg", "alt": "Oil pastel work 10", "orientation": "square"},
+      {"src": "https://i.imgur.com/hWvkdlA.jpeg", "alt": "Oil pastel work 11", "orientation": "square"},
+      {"src": "https://i.imgur.com/OGTVUT9.jpeg", "alt": "Oil pastel work 12", "orientation": "square"},
+      {"src": "https://i.imgur.com/R3rPRVz.jpeg", "alt": "Oil pastel work 13", "orientation": "square"},
+      {"src": "https://i.imgur.com/CrLALkc.jpeg", "alt": "Oil pastel work 14", "orientation": "square"},
+      {"src": "https://i.imgur.com/SGKkBk9.jpeg", "alt": "Oil pastel work 15", "orientation": "square"},
+      {"src": "https://i.imgur.com/J2nhkFd.jpeg", "alt": "Oil pastel work 16", "orientation": "square"},
+      {"src": "https://i.imgur.com/Yj2nfpR.jpeg", "alt": "Oil pastel work 17", "orientation": "square"},
+      {"src": "https://i.imgur.com/cDFzmsb.jpeg", "alt": "Oil pastel work 18", "orientation": "square"},
+      {"src": "https://i.imgur.com/s55vQFZ.jpeg", "alt": "Oil pastel work 19", "orientation": "square"}
+    ]
+  },
+  "charcoal": {
+    "title": "monochrome charcoal and pen illustrations",
+    "images": [
+      {"src": "https://i.imgur.com/fL652mP.jpeg", "alt": "Charcoal and pen illustration 1", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/V3EmlvC.jpeg", "alt": "Charcoal and pen illustration 2", "orientation": "square"},
+      {"src": "https://i.imgur.com/S45bczI.jpeg", "alt": "Charcoal and pen illustration 3", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/C31O5Zt.jpeg", "alt": "Charcoal and pen illustration 4", "orientation": "square"},
+      {"src": "https://i.imgur.com/x2Gg9lv.jpeg", "alt": "Charcoal and pen illustration 5", "orientation": "square"},
+      {"src": "https://i.imgur.com/mVoVYHT.jpeg", "alt": "Charcoal and pen illustration 6", "orientation": "square"},
+      {"src": "https://i.imgur.com/Z55wTXt.jpeg", "alt": "Charcoal and pen illustration 7", "orientation": "square"},
+      {"src": "https://i.imgur.com/lhio04t.jpeg", "alt": "Charcoal and pen illustration 8", "orientation": "square"},
+      {"src": "https://i.imgur.com/lKPKRGP.jpeg", "alt": "Charcoal and pen illustration 9", "orientation": "square"},
+      {"src": "https://i.imgur.com/GhJJwBe.jpeg", "alt": "Charcoal and pen illustration 10", "orientation": "square"},
+      {"src": "https://i.imgur.com/C5bTCE8.jpeg", "alt": "Charcoal and pen illustration 11", "orientation": "square"},
+      {"src": "https://i.imgur.com/sDJqIoD.jpeg", "alt": "Charcoal and pen illustration 12", "orientation": "square"},
+      {"src": "https://i.imgur.com/3NZo7rA.jpeg", "alt": "Charcoal and pen illustration 13", "orientation": "square"},
+      {"src": "https://i.imgur.com/2wLvfPV.jpeg", "alt": "Charcoal and pen illustration 14", "orientation": "square"},
+      {"src": "https://i.imgur.com/rR9wqjz.jpeg", "alt": "Charcoal and pen illustration 15", "orientation": "square"},
+      {"src": "https://i.imgur.com/t2POvq7.jpeg", "alt": "Charcoal and pen illustration 16", "orientation": "square"},
+      {"src": "https://i.imgur.com/YzsrdWL.jpeg", "alt": "Charcoal and pen illustration 17", "orientation": "square"},
+      {"src": "https://i.imgur.com/Kwwn0xD.jpeg", "alt": "Charcoal and pen illustration 18", "orientation": "square"},
+      {"src": "https://i.imgur.com/Kq0Oe46.jpeg", "alt": "Charcoal and pen illustration 19", "orientation": "square"},
+      {"src": "https://i.imgur.com/IekFGz1.jpeg", "alt": "Charcoal and pen illustration 20", "orientation": "square"},
+      {"src": "https://i.imgur.com/R89wjns.jpeg", "alt": "Charcoal and pen illustration 21", "orientation": "square"},
+      {"src": "https://i.imgur.com/s88SmhK.jpeg", "alt": "Charcoal and pen illustration 22", "orientation": "square"},
+      {"src": "https://i.imgur.com/BNawiGt.jpeg", "alt": "Charcoal and pen illustration 23", "orientation": "square"}
+    ]
+  },
+  "journaling": {
+    "title": "pretty pages - mixmedia collages and journaling",
+    "images": [
+      {"src": "https://i.imgur.com/acTkMwD.jpeg", "alt": "Mixed media collage 1", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/Le9hEac.jpeg", "alt": "Mixed media collage 2", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/O70t4WL.jpeg", "alt": "Mixed media collage 3", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/F0FyZXp.jpeg", "alt": "Mixed media collage 4", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/9VztyCA.jpeg", "alt": "Mixed media collage 5", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/JGJxS5s.jpeg", "alt": "Mixed media collage 6", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/dDcZtFJ.jpeg", "alt": "Mixed media collage 7", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/SEoiCmJ.jpeg", "alt": "Mixed media collage 8", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/6goya6z.jpeg", "alt": "Mixed media collage 9", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/4gVFZHr.jpeg", "alt": "Mixed media collage 10", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/7YVvXgM.jpeg", "alt": "Mixed media collage 11", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/PUMwYUX.jpeg", "alt": "Mixed media collage 12", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/vnfCPgu.jpeg", "alt": "Mixed media collage 13", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/JzYEChW.jpeg", "alt": "Mixed media collage 14", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/PFcyUlx.jpeg", "alt": "Mixed media collage 15", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/HZ7pLBh.jpeg", "alt": "Mixed media collage 16", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/a05fnSZ.jpeg", "alt": "Mixed media collage 17", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/9itfDKV.jpeg", "alt": "Mixed media collage 18", "orientation": "horizontal"}
+    ]
+  },
+  "digital": {
+    "title": "illustrative digital pieces",
+    "images": [
+      {"src": "https://i.imgur.com/Y1lNQKM.jpeg", "alt": "Digital artwork 1", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/qtLlWd9.jpeg", "alt": "Digital artwork 2", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/RNcph2i.jpeg", "alt": "Digital artwork 3", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/ilkVWV9.jpeg", "alt": "Digital artwork 4", "orientation": "horizontal"}
+    ]
+  },
+  "process": {
+    "title": "the making space — glimpses into the surroundings of creation",
+    "images": [
+      {"src": "https://i.imgur.com/8wCU4v4.jpeg", "alt": "Process photo 1", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/oKwlgqR.jpeg", "alt": "Process photo 2", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/mrY96os.jpeg", "alt": "Process photo 3", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/hG1dUWF.jpeg", "alt": "Process photo 4", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/LmRVR95.jpeg", "alt": "Process photo 5", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/6rHKpMg.jpeg", "alt": "Process photo 6", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/y7cVJkJ.jpeg", "alt": "Process photo 7", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/EoU4vNs.jpeg", "alt": "Process photo 8", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/AJkMyGd.jpeg", "alt": "Process photo 9", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/ivcpJVT.jpeg", "alt": "Process photo 10", "orientation": "horizontal"},
+      {"src": "https://i.imgur.com/sWvodeG.jpeg", "alt": "Process photo 11", "orientation": "horizontal"}
+    ]
+  }
+}
