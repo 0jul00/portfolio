@@ -385,7 +385,7 @@
         "orientation": "horizontal"
       },
      {
-  "src": "https://i.imgur.com/V1SGaRL.jpeg",
+  "src": "https://i.imgur.com/lpvU5I7.png",
   "full": "https://i.imgur.com/hpKEhW3.jpeg",
   "alt": "Grafika",
   "orientation": "horizontal"
@@ -397,9 +397,15 @@
   "orientation": "horizontal"
 },
       {
-        "src": "https://i.imgur.com/ilkVWV9.jpeg",
-        "full": "https://i.imgur.com/3dHC4WI.png",
+        "src": "https://i.imgur.com/c1MIBUL.png",
+        "full": "https://i.imgur.com/4FFBTX3.jpeg",
         "alt": "Digital artwork 4",
+        "orientation": "horizontal"
+      },
+       {
+        "src": "https://i.imgur.com/4KjG3dd.png",
+        "full": "https://i.imgur.com/lUJ1pAd.png",
+        "alt": "Digital artwork 5",
         "orientation": "horizontal"
       }
     ]
