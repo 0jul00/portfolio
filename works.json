@@ -384,12 +384,12 @@
         "alt": "Digital artwork 1",
         "orientation": "horizontal"
       },
-      {
-        "src": "https://i.imgur.com/qtLlWd9.jpeg",
-        "full": "https://i.imgur.com/hTLUdjs.png",
-        "alt": "Digital artwork 2",
-        "orientation": "horizontal"
-      },
+     {
+  "src": "https://i.imgur.com/V1SGaRL.jpeg",
+  "full": "https://i.imgur.com/hpKEhW3.jpeg",
+  "alt": "Grafika",
+  "orientation": "horizontal"
+},
       {
         "src": "https://i.imgur.com/RNcph2i.jpeg",
         "full": "https://i.imgur.com/qNX9PwC.png",
