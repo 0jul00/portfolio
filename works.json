@@ -407,7 +407,27 @@
         "full": "https://i.imgur.com/lUJ1pAd.png",
         "alt": "Digital artwork 5",
         "orientation": "horizontal"
+      },
+      {
+       "src": "https://i.imgur.com/X0ziiJc.png",
+        "full": "https://i.imgur.com/7pkcMDz.png",
+        "alt": "Digital artwork 6 - kuchnia",
+        "orientation": "horizontal"
+      },
+   {
+       "src": "https://i.imgur.com/NTCe4Bd.png",
+        "full": "https://i.imgur.com/Hnahkz3.jpeg",
+        "alt": "Digital artwork 6 - kwiaty i grzyby",
+        "orientation": "horizontal"
+      },
+       {
+       "src": "https://i.imgur.com/NqKM7Hd.png",
+        "full": "https://i.imgur.com/1IxGHTW.png",
+        "alt": "Digital artwork 6 - lampa",
+        "orientation": "horizontal"
       }
+    
+  
     ]
   },
   "process": {
